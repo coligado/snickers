@@ -7,6 +7,7 @@
 //
 
 #import "SnickersMazeAppDelegate.h"
+#import "MazeViewController.h"
 
 @implementation SnickersMazeAppDelegate
 
@@ -14,6 +15,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    MazeViewController *mvc = [[MazeViewController alloc] init];
+    [[self window] setRootViewController:mvc];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
