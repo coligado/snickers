@@ -19,6 +19,11 @@
 		3B4391FF179D9EEE00821493 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4391E7179D9EEE00821493 /* UIKit.framework */; };
 		3B439207179D9EEE00821493 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B439205179D9EEE00821493 /* InfoPlist.strings */; };
 		3B439209179D9EEE00821493 /* SnickersMazeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B439208179D9EEE00821493 /* SnickersMazeTests.m */; };
+		3BE6C922179DB2A400EC344A /* snickers.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE6C921179DB2A400EC344A /* snickers.png */; };
+		3BE6C925179DD1D900EC344A /* MazeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6C924179DD1D900EC344A /* MazeViewController.m */; };
+		3BE6C92A179DDDE500EC344A /* cesar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE6C929179DDDE500EC344A /* cesar.png */; };
+		3BE6C92D179DE35C00EC344A /* DogScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6C92C179DE35C00EC344A /* DogScene.m */; };
+		3BE6C935179DF9B300EC344A /* snoop.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE6C934179DF9B300EC344A /* snoop.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,13 @@
 		3B439204179D9EEE00821493 /* SnickersMazeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnickersMazeTests-Info.plist"; sourceTree = "<group>"; };
 		3B439206179D9EEE00821493 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B439208179D9EEE00821493 /* SnickersMazeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnickersMazeTests.m; sourceTree = "<group>"; };
+		3BE6C921179DB2A400EC344A /* snickers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snickers.png; sourceTree = "<group>"; };
+		3BE6C923179DD1D900EC344A /* MazeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MazeViewController.h; path = ../MazeViewController.h; sourceTree = "<group>"; };
+		3BE6C924179DD1D900EC344A /* MazeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MazeViewController.m; path = ../MazeViewController.m; sourceTree = "<group>"; };
+		3BE6C929179DDDE500EC344A /* cesar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cesar.png; sourceTree = "<group>"; };
+		3BE6C92B179DE35C00EC344A /* DogScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogScene.h; sourceTree = "<group>"; };
+		3BE6C92C179DE35C00EC344A /* DogScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogScene.m; sourceTree = "<group>"; };
+		3BE6C934179DF9B300EC344A /* snoop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snoop.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +119,13 @@
 		3B4391E9179D9EEE00821493 /* SnickersMaze */ = {
 			isa = PBXGroup;
 			children = (
+				3BE6C934179DF9B300EC344A /* snoop.png */,
+				3BE6C929179DDDE500EC344A /* cesar.png */,
+				3BE6C923179DD1D900EC344A /* MazeViewController.h */,
+				3BE6C924179DD1D900EC344A /* MazeViewController.m */,
+				3BE6C92B179DE35C00EC344A /* DogScene.h */,
+				3BE6C92C179DE35C00EC344A /* DogScene.m */,
+				3BE6C921179DB2A400EC344A /* snickers.png */,
 				3B4391F2179D9EEE00821493 /* SnickersMazeAppDelegate.h */,
 				3B4391F3179D9EEE00821493 /* SnickersMazeAppDelegate.m */,
 				3B4391F5179D9EEE00821493 /* Images.xcassets */,
@@ -220,6 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE6C922179DB2A400EC344A /* snickers.png in Resources */,
+				3BE6C935179DF9B300EC344A /* snoop.png in Resources */,
+				3BE6C92A179DDDE500EC344A /* cesar.png in Resources */,
 				3B4391EE179D9EEE00821493 /* InfoPlist.strings in Resources */,
 				3B4391F6179D9EEE00821493 /* Images.xcassets in Resources */,
 			);
@@ -242,6 +264,8 @@
 			files = (
 				3B4391F0179D9EEE00821493 /* main.m in Sources */,
 				3B4391F4179D9EEE00821493 /* SnickersMazeAppDelegate.m in Sources */,
+				3BE6C925179DD1D900EC344A /* MazeViewController.m in Sources */,
+				3BE6C92D179DE35C00EC344A /* DogScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +460,7 @@
 				3B43920E179D9EEE00821493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B43920F179D9EEE00821493 /* Build configuration list for PBXNativeTarget "SnickersMazeTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +469,7 @@
 				3B439211179D9EEE00821493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
