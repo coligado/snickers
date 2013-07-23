@@ -8,6 +8,10 @@
 
 #import "DogScene.h"
 
+typedef NS_OPTIONS(uint32_t, MyCategory) {
+    //MyCategory
+};
+
 @interface DogScene ()
 
 @property BOOL contentCreated;
@@ -101,6 +105,7 @@ static inline CGFloat skRand(CGFloat delta) {
 
 // TOUCHES
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    /*
     SKNode *dogNode = [self childNodeWithName:@"Snickers"];
     if (dogNode) {
         dogNode.name = nil;
@@ -111,7 +116,7 @@ static inline CGFloat skRand(CGFloat delta) {
         SKAction *remove = [SKAction removeFromParent];
         SKAction *moveSequence = [SKAction sequence:@[moveUp, zoom, pause, fadeAway, remove]];
         [dogNode runAction:moveSequence];
-    }
+    } */
 }
 
 - (void)didSimulatePhysics {
